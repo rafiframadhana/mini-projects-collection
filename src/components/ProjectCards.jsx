@@ -165,7 +165,6 @@ const StyledProjectCard = styled.div`
   }
 
   @media (max-width: 768px) {
-
     .card-footer {
       .tech-stack h5 {
         font-size: 0.85rem;
@@ -254,12 +253,7 @@ export default function ProjectCard({ project }) {
               </div>
             </div>
             <div className="project-links">
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ y: -2 }}
-              >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <Tooltip title="View Website" arrow>
                   <img src={web} alt="Website" />
                 </Tooltip>
@@ -268,7 +262,6 @@ export default function ProjectCard({ project }) {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                whileHover={{ y: -2 }}
               >
                 <Tooltip title="View Repository" arrow>
                   <img src={github} alt="GitHub" />
