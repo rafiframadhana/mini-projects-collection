@@ -5,7 +5,6 @@ import ProjectCard from './ProjectCards.jsx';
 import useWindowSize from './../hooks/useWindowSize.jsx';
 import Tooltip from "@mui/material/Tooltip";
 import './../styles/projects.css';
-
 function Projects() {
   const { width } = useWindowSize();
   const [currentPage, setCurrentPage] = useState(1);
@@ -124,6 +123,7 @@ function Projects() {
           </div>
         </div>
       )}
+
     </section>
   );
 }

@@ -7,9 +7,9 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 function App() {
   return (
     
-    <div className="app-container"> {/* Add this wrapper */}
+    <div className="app-container">
       <Navbar />
-      <main className="main-content"> {/* Wrap main content */}
+      <main className="main-content">
         <Projects />
       </main>
       <Footer />

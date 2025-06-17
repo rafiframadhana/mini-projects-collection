@@ -17,6 +17,7 @@ const StyledProjectCard = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+  text-align: center;
   border: 1px solid var(--project-border-color);
 
   &:hover {
@@ -72,7 +73,7 @@ const StyledProjectCard = styled.div`
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.1rem;
       color: var(--text-secondary);
       margin: 0 1.5rem;
       line-height: 1.5;
@@ -183,7 +184,6 @@ const StyledProjectCard = styled.div`
 
   @media (max-width: 480px) {
     padding: 0.5rem;
-
     .card-content p {
       margin: 10px 0;
     }

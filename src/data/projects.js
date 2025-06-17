@@ -213,7 +213,7 @@ export const projects = [
     img: numberGuessing,
     title: "Number Guessing Game",
     description:
-      "A game where the player guesses a randomly generated number, with feedback on whether the guess is too high or low.",
+      "A game where the player guesses a randomly generated number.",
     link: "https://rafiframadhana.github.io/Number-Guessing-Game/",
     github: "https://github.com/rafiframadhana/Number-Guessing-Game",
     techStack: [
